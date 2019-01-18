@@ -190,26 +190,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/MaggieBlog/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
-            
-            關於
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/MaggieBlog/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            標籤
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/MaggieBlog/archives/" rel="section">
             
@@ -252,12 +232,517 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/18/test/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Maggie Chang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/MaggieBlog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Maggie's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MaggieBlog/2019/01/18/test/" itemprop="url">test</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-18T15:42:35+08:00">
+                2019-01-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/16/postman/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Maggie Chang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/MaggieBlog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Maggie's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MaggieBlog/2019/01/16/postman/" itemprop="url">【小工具】測試工具 - postman</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-16T17:42:11+08:00">
+                2019-01-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在寫給手機介接的API，利用 postman 來測試，<br>所以就來記錄一下我所使用到的postman的方法。</p>
+<h2 id="POST"><a href="#POST" class="headerlink" title="POST"></a>POST</h2><h4 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h4><img src="/MaggieBlog/2019/01/16/postman/postman_post1.png">
+<p>“Body” 中選擇 “x-www-form-urlencoded” ，再將參數加入下方輸入格。<br>Headers 中 Content-Type 的value會變成 application/x-www-form-urlencoded。</p>
+<h5 id="補充：x-www-form-urlencoded"><a href="#補充：x-www-form-urlencoded" class="headerlink" title="補充：x-www-form-urlencoded"></a>補充：x-www-form-urlencoded</h5><ul>
+<li>POST 提交數據的方法之一。</li>
+<li>數據按照 key1=val1&amp;key2=val2 的方式進行編碼，key與value都進行了url轉碼。</li>
+</ul>
+<h5 id="插曲："><a href="#插曲：" class="headerlink" title="插曲："></a>插曲：</h5><p>一開始在使用postman時有選擇post,但一直把參數寫在Params。因此傳base64時，後端decode一直失敗。</p>
+<h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><img src="/MaggieBlog/2019/01/16/postman/postman_post2.png">
+<p>“Body” 中選擇 “raw” 之後 ，text 選擇 “JSON (application/json)”，在下方以json格式加入參數。Headers 中 Content-Type 的value會變成application/json。</p>
+<h5 id="補充：application-json"><a href="#補充：application-json" class="headerlink" title="補充：application/json"></a>補充：application/json</h5><ul>
+<li>以json格式提交參數。</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/04/programmingInSwift02/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Maggie Chang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/MaggieBlog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Maggie's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MaggieBlog/2019/01/04/programmingInSwift02/" itemprop="url">「swift 學習筆記＆心得」02 - 使用playgrounds 與學習swift基礎語法</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-04T16:38:28+08:00">
+                2019-01-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="開發ios-APP必學項目"><a href="#開發ios-APP必學項目" class="headerlink" title="開發ios APP必學項目"></a>開發ios APP必學項目</h2><ol>
+<li>swift：開發 iosApp 的程式語言。</li>
+<li>Xcode10：開發工具。</li>
+<li>iOS software development kit：apple提供的軟體開發工具，可以加速開發。</li>
+</ol>
+<h2 id="playground"><a href="#playground" class="headerlink" title="playground"></a>playground</h2><p>Swift 程式語言的互動開發環境，能即時得到運行結果。</p>
+<h2 id="語法與備註"><a href="#語法與備註" class="headerlink" title="語法與備註"></a>語法與備註</h2><h3 id="var-amp-let"><a href="#var-amp-let" class="headerlink" title="var &amp; let"></a>var &amp; let</h3><p>var 是用來宣告變數，let是用來宣告常數。<br>常數是以一個值來做初始化，不能改變。<br>變數是可以改變的。</p>
+<h3 id="Type-Inference"><a href="#Type-Inference" class="headerlink" title="Type Inference"></a>Type Inference</h3><p>宣告常數與變數時可以省略型態，swift編譯器會自己判斷。<br>宣告的語法 ：<code>var number: Double = 10.5</code><br>名稱後加 : <code>型態</code></p>
+<h3 id="text"><a href="#text" class="headerlink" title="text"></a>text</h3><p>宣告字串語法：<code>String a = &quot;test&quot;</code><br>可以使用 <code>+</code> 串連兩個相同型態的元素,<br>始用<code>uppercased()</code> 與 <code>lowercased()</code>改變大小寫,<br>利用<code>count</code>計算字元數目。</p>
+<h3 id="型態轉換"><a href="#型態轉換" class="headerlink" title="型態轉換"></a>型態轉換</h3><p>型態轉換語法：欲轉換的型態（要轉換的變數）<br><code>String(ten)</code></p>
+<h3 id="字串插值（String-Interpolations）"><a href="#字串插值（String-Interpolations）" class="headerlink" title="字串插值（String Interpolations）"></a>字串插值（String Interpolations）</h3><p>字串插值語法：$ \ (要轉換的變數)<br><code>var totalPriceMessage = &quot;The price of the book is $ \(totalPrice)&quot;</code></p>
+<p>/////未完待續/////</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/04/programmingInSwift01/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Maggie Chang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/MaggieBlog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Maggie's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/MaggieBlog/2019/01/04/programmingInSwift01/" itemprop="url">「swift 學習筆記＆心得」01 - 動機 & 開發環境</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-04T16:35:13+08:00">
+                2019-01-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>為什麼想學swift？</p>
+<p>一直都找不到我願意堅持記帳的app，所以就很想要自己來寫一個。（可能也是我自己的問題？！哈哈）<br>而我又是apple的重度使用者，從在學校學習到正式成為網頁工程師，都是使用mac開發。所以就決定學習swift了！</p>
+<h2 id="學習環境"><a href="#學習環境" class="headerlink" title="學習環境"></a>學習環境</h2><p>使用的電腦：mac  air 13寸<br>整合開發環境（IDE）：Xcode10<br>目前沒有申請「 iOS Developer Program 」<br>參考書籍：iOS 11 App程式設計實戰心法</p>
+<p>備註：「iOS 11 App程式設計實戰心法」的開發環境是Xcode9， 但我使用的IDE是Xcode10。之後可能會再購入ios12的版本。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2018/12/21/commandNote/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Maggie Chang">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/MaggieBlog/uploads/avatar.jpg">
+      <meta itemprop="image" content="/MaggieBlog/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -399,8 +884,6 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/MaggieBlog/uploads/avatar.jpg" alt="Maggie Chang">
-            
               <p class="site-author-name" itemprop="name">Maggie Chang</p>
               <p class="site-description motion-element" itemprop="description">I am going to generate a blog for myself</p>
           </div>
@@ -412,7 +895,7 @@
               
                 <a href="/MaggieBlog/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -426,16 +909,6 @@
 
           
 
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/maggie12625" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-MyGithub"></i>GitHub</a>
-                  </span>
-                
-            </div>
           
 
           

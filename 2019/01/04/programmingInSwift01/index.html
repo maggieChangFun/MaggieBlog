@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta name="description" content="前言為什麼想學swift？ 一直都找不到我願意堅持記帳的app，所以就很想要自己來寫一個。（可能也是我自己的問題？！哈哈）而我又是apple的重度使用者，從在學校學習到正式成為網頁工程師，都是使用mac開發。所以就決定學習swift了！ 學習環境使用的電腦：mac  air 13寸整合開發環境（IDE）：Xcode10目前沒有申請「 iOS Developer Program 」參考書籍：iOS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="commandNote">
-<meta property="og:url" content="https://maggiechangfun.github.io/MaggieBlog/2018/12/21/commandNote/index.html">
+<meta property="og:title" content="「swift 學習筆記＆心得」01 - 動機 &amp; 開發環境">
+<meta property="og:url" content="https://maggiechangfun.github.io/MaggieBlog/2019/01/04/programmingInSwift01/index.html">
 <meta property="og:site_name" content="Maggie&#39;s blog">
-<meta property="og:description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta property="og:description" content="前言為什麼想學swift？ 一直都找不到我願意堅持記帳的app，所以就很想要自己來寫一個。（可能也是我自己的問題？！哈哈）而我又是apple的重度使用者，從在學校學習到正式成為網頁工程師，都是使用mac開發。所以就決定學習swift了！ 學習環境使用的電腦：mac  air 13寸整合開發環境（IDE）：Xcode10目前沒有申請「 iOS Developer Program 」參考書籍：iOS">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-12-21T09:58:24.091Z">
+<meta property="og:updated_time" content="2019-01-16T08:42:09.299Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="commandNote">
-<meta name="twitter:description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta name="twitter:title" content="「swift 學習筆記＆心得」01 - 動機 &amp; 開發環境">
+<meta name="twitter:description" content="前言為什麼想學swift？ 一直都找不到我願意堅持記帳的app，所以就很想要自己來寫一個。（可能也是我自己的問題？！哈哈）而我又是apple的重度使用者，從在學校學習到正式成為網頁工程師，都是使用mac開發。所以就決定學習swift了！ 學習環境使用的電腦：mac  air 13寸整合開發環境（IDE）：Xcode10目前沒有申請「 iOS Developer Program 」參考書籍：iOS">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://maggiechangfun.github.io/MaggieBlog/2018/12/21/commandNote/">
+  <link rel="canonical" href="https://maggiechangfun.github.io/MaggieBlog/2019/01/04/programmingInSwift01/">
 
 
 
 
 
-  <title>commandNote | Maggie's blog</title>
+  <title>「swift 學習筆記＆心得」01 - 動機 & 開發環境 | Maggie's blog</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2018/12/21/commandNote/">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/04/programmingInSwift01/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Maggie Chang">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">commandNote</h1>
+          <h1 class="post-title" itemprop="name headline">「swift 學習筆記＆心得」01 - 動機 & 開發環境</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-12-21T17:31:59+08:00">
-                2018-12-21
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-04T16:35:13+08:00">
+                2019-01-04
               </time>
             
 
@@ -299,12 +299,10 @@
       
 
       
-        <blockquote>
-<p>這個筆記是給mac使用的<br>windows不一定適用</p>
-</blockquote>
-<ul>
-<li>以系統管理員身份使用<br><code>sudo</code><br><a href="https://support.apple.com/zh-tw/HT202035" target="_blank" rel="noopener">必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援</a></li>
-</ul>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>為什麼想學swift？</p>
+<p>一直都找不到我願意堅持記帳的app，所以就很想要自己來寫一個。（可能也是我自己的問題？！哈哈）<br>而我又是apple的重度使用者，從在學校學習到正式成為網頁工程師，都是使用mac開發。所以就決定學習swift了！</p>
+<h2 id="學習環境"><a href="#學習環境" class="headerlink" title="學習環境"></a>學習環境</h2><p>使用的電腦：mac  air 13寸<br>整合開發環境（IDE）：Xcode10<br>目前沒有申請「 iOS Developer Program 」<br>參考書籍：iOS 11 App程式設計實戰心法</p>
+<p>備註：「iOS 11 App程式設計實戰心法」的開發環境是Xcode9， 但我使用的IDE是Xcode10。之後可能會再購入ios12的版本。</p>
 
       
     </div>
@@ -329,14 +327,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/MaggieBlog/2018/12/21/commandNote/" rel="next" title="commandNote">
+                <i class="fa fa-chevron-left"></i> commandNote
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/MaggieBlog/2019/01/04/programmingInSwift01/" rel="prev" title="「swift 學習筆記＆心得」01 - 動機 & 開發環境">
-                「swift 學習筆記＆心得」01 - 動機 & 開發環境 <i class="fa fa-chevron-right"></i>
+              <a href="/MaggieBlog/2019/01/04/programmingInSwift02/" rel="prev" title="「swift 學習筆記＆心得」02 - 使用playgrounds 與學習swift基礎語法">
+                「swift 學習筆記＆心得」02 - 使用playgrounds 與學習swift基礎語法 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -389,8 +391,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -432,6 +443,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#學習環境"><span class="nav-number">2.</span> <span class="nav-text">學習環境</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

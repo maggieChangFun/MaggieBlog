@@ -79,17 +79,20 @@
 
 
 
-<meta name="description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta name="description" content="前言最近在寫給手機介接的API，利用 postman 來測試，所以就來記錄一下我所使用到的postman的方法。 POST方法一 “Body” 中選擇 “x-www-form-urlencoded” ，再將參數加入下方輸入格。Headers 中 Content-Type 的value會變成 application/x-www-form-urlencoded。 補充：x-www-form-urlen">
 <meta property="og:type" content="article">
-<meta property="og:title" content="commandNote">
-<meta property="og:url" content="https://maggiechangfun.github.io/MaggieBlog/2018/12/21/commandNote/index.html">
+<meta property="og:title" content="【小工具】測試工具 - postman">
+<meta property="og:url" content="https://maggiechangfun.github.io/MaggieBlog/2019/01/16/postman/index.html">
 <meta property="og:site_name" content="Maggie&#39;s blog">
-<meta property="og:description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta property="og:description" content="前言最近在寫給手機介接的API，利用 postman 來測試，所以就來記錄一下我所使用到的postman的方法。 POST方法一 “Body” 中選擇 “x-www-form-urlencoded” ，再將參數加入下方輸入格。Headers 中 Content-Type 的value會變成 application/x-www-form-urlencoded。 補充：x-www-form-urlen">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-12-21T09:58:24.091Z">
+<meta property="og:image" content="https://maggiechangfun.github.io/MaggieBlog/2019/01/16/postman/postman_post1.png">
+<meta property="og:image" content="https://maggiechangfun.github.io/MaggieBlog/2019/01/16/postman/postman_post2.png">
+<meta property="og:updated_time" content="2019-01-16T10:01:25.387Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="commandNote">
-<meta name="twitter:description" content="這個筆記是給mac使用的windows不一定適用   以系統管理員身份使用sudo必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援">
+<meta name="twitter:title" content="【小工具】測試工具 - postman">
+<meta name="twitter:description" content="前言最近在寫給手機介接的API，利用 postman 來測試，所以就來記錄一下我所使用到的postman的方法。 POST方法一 “Body” 中選擇 “x-www-form-urlencoded” ，再將參數加入下方輸入格。Headers 中 Content-Type 的value會變成 application/x-www-form-urlencoded。 補充：x-www-form-urlen">
+<meta name="twitter:image" content="https://maggiechangfun.github.io/MaggieBlog/2019/01/16/postman/postman_post1.png">
 
 
 
@@ -119,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://maggiechangfun.github.io/MaggieBlog/2018/12/21/commandNote/">
+  <link rel="canonical" href="https://maggiechangfun.github.io/MaggieBlog/2019/01/16/postman/">
 
 
 
 
 
-  <title>commandNote | Maggie's blog</title>
+  <title>【小工具】測試工具 - postman | Maggie's blog</title>
   
 
 
@@ -232,7 +235,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2018/12/21/commandNote/">
+    <link itemprop="mainEntityOfPage" href="https://maggiechangfun.github.io/MaggieBlog/MaggieBlog/2019/01/16/postman/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Maggie Chang">
@@ -249,7 +252,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">commandNote</h1>
+          <h1 class="post-title" itemprop="name headline">【小工具】測試工具 - postman</h1>
         
 
         <div class="post-meta">
@@ -261,8 +264,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-12-21T17:31:59+08:00">
-                2018-12-21
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-01-16T17:42:11+08:00">
+                2019-01-16
               </time>
             
 
@@ -299,11 +302,18 @@
       
 
       
-        <blockquote>
-<p>這個筆記是給mac使用的<br>windows不一定適用</p>
-</blockquote>
-<ul>
-<li>以系統管理員身份使用<br><code>sudo</code><br><a href="https://support.apple.com/zh-tw/HT202035" target="_blank" rel="noopener">必須使用管理者密碼，才能在「終端機」裡使用 sudo 指令 - Apple 支援</a></li>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近在寫給手機介接的API，利用 postman 來測試，<br>所以就來記錄一下我所使用到的postman的方法。</p>
+<h2 id="POST"><a href="#POST" class="headerlink" title="POST"></a>POST</h2><h4 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h4><img src="/MaggieBlog/2019/01/16/postman/postman_post1.png">
+<p>“Body” 中選擇 “x-www-form-urlencoded” ，再將參數加入下方輸入格。<br>Headers 中 Content-Type 的value會變成 application/x-www-form-urlencoded。</p>
+<h5 id="補充：x-www-form-urlencoded"><a href="#補充：x-www-form-urlencoded" class="headerlink" title="補充：x-www-form-urlencoded"></a>補充：x-www-form-urlencoded</h5><ul>
+<li>POST 提交數據的方法之一。</li>
+<li>數據按照 key1=val1&amp;key2=val2 的方式進行編碼，key與value都進行了url轉碼。</li>
+</ul>
+<h5 id="插曲："><a href="#插曲：" class="headerlink" title="插曲："></a>插曲：</h5><p>一開始在使用postman時有選擇post,但一直把參數寫在Params。因此傳base64時，後端decode一直失敗。</p>
+<h4 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h4><img src="/MaggieBlog/2019/01/16/postman/postman_post2.png">
+<p>“Body” 中選擇 “raw” 之後 ，text 選擇 “JSON (application/json)”，在下方以json格式加入參數。Headers 中 Content-Type 的value會變成application/json。</p>
+<h5 id="補充：application-json"><a href="#補充：application-json" class="headerlink" title="補充：application/json"></a>補充：application/json</h5><ul>
+<li>以json格式提交參數。</li>
 </ul>
 
       
@@ -329,14 +339,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/MaggieBlog/2019/01/04/programmingInSwift02/" rel="next" title="「swift 學習筆記＆心得」02 - 使用playgrounds 與學習swift基礎語法">
+                <i class="fa fa-chevron-left"></i> 「swift 學習筆記＆心得」02 - 使用playgrounds 與學習swift基礎語法
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/MaggieBlog/2019/01/04/programmingInSwift01/" rel="prev" title="「swift 學習筆記＆心得」01 - 動機 & 開發環境">
-                「swift 學習筆記＆心得」01 - 動機 & 開發環境 <i class="fa fa-chevron-right"></i>
+              <a href="/MaggieBlog/2019/01/18/test/" rel="prev" title="test">
+                test <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -389,8 +403,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -432,6 +455,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#POST"><span class="nav-number">2.</span> <span class="nav-text">POST</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法一"><span class="nav-number">2.0.1.</span> <span class="nav-text">方法一</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#補充：x-www-form-urlencoded"><span class="nav-number">2.0.1.1.</span> <span class="nav-text">補充：x-www-form-urlencoded</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#插曲："><span class="nav-number">2.0.1.2.</span> <span class="nav-text">插曲：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方法二"><span class="nav-number">2.0.2.</span> <span class="nav-text">方法二</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#補充：application-json"><span class="nav-number">2.0.2.1.</span> <span class="nav-text">補充：application/json</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
